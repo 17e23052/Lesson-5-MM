@@ -1,0 +1,13 @@
+from time import sleep
+print("Hello. I am the Mystical Meredith.")
+name = (input("What is your name? - "))
+print(f"Hello {name}.")
+number = int(input("Pick a random number. - "))
+print("We will do something to the number.")
+print("I reckon the answer will be 3.")
+print("We will now execute the process.")
+answer = int(number * 2 * 5 / number - 7)
+print("I am thinking...")
+sleep(3)
+print(f"The answer was {answer}.")
+print("Now try with a different number.")
